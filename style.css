@@ -1,0 +1,65 @@
+/*name-manjot
+    student id-20055116*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo-container {
+    display: inline-block; /* Make the logo container inline-block */
+}
+
+.logo {
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin to the right for spacing */
+    border-radius: 50%;
+}
+
+
+.quote-box {
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Set background color with opacity */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+}
+
+.quote-button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff0051;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.quote-button:hover {
+    background-color: #d112c1;
+}
+
+/* Add gradient background */
+@keyframes gradientBackground {
+    0% { background-color: #7d6d85; }
+    100% { background-color: #c594b3; }
+}
+
+body {
+    animation: gradientBackground 10s infinite alternate; /* Apply gradient animation */
+}
+
+/* Add image as a background for the quote container */
+#quote-container {
+    background-image: url('Silk\ Wallpaper\ #wallpaperbackgrounds\ |\ White\ wallpaper\,\ White\ aesthetic\,\ Aesthetic\ backgrounds.jpg'); /* Replace 'quote-background.jpg' with your actual image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
